@@ -1,51 +1,23 @@
 # Power BI Analytics Portfolio
 
-A private staging index for four completed Power BI dashboard projects. The original PBIX files and source workbooks are intentionally not uploaded because Power BI embeds its data model and these reports contain real operational records, identifiers, employer branding, and sensitive business fields.
+This repository is a safe starting point for publishing Power BI case studies built from **synthetic data only**. It contains no production PBIX files, source exports, client names, personal data, logos, or confidential metrics.
 
-## Projects identified
+## Included
 
-### Contact-centre performance dashboard
+- A fictional workflow dataset for a demo dashboard
+- A data dictionary and reusable measure ideas
+- A public-release checklist for Power BI projects
+- A dashboard-wireframe asset that can be recreated in Power BI
 
-- Combines monthly application and individual agent-performance reporting
-- Two report pages with KPI cards, trends, comparisons, and detailed operational views
-- Most mature local version contains approximately 35 visuals
-- Portfolio version should use synthetic agent names, volumes, service levels, and outcomes
+## Suggested case-study structure
 
-### NDLS licensing performance report
+1. Create a fresh PBIX from the synthetic CSV in `examples/`.
+2. Recreate the visual story using the blueprint in `docs/REBUILD_BLUEPRINT.md`.
+3. Export only screenshots that have passed the checklist in `docs/PUBLICATION_CHECKLIST.md`.
+4. Document assumptions, transformations, and calculated measures in plain language.
 
-- One-page operational report with approximately 12 visuals
-- Includes cards, bar and line charts, a pie chart, and detailed table views
-- Original model references contact, agent, and disposition fields
-- Public release requires synthetic records and removal of client/employer identifiers
+## Safety boundary
 
-### EV grant operations dashboard
+Do not add original `.pbix`, `.pbit`, workbook, PDF, screenshot, or data-export files to this repository. Power BI files can carry embedded records, model metadata, source locations, and brand assets even when a report page appears anonymous.
 
-- One-page dashboard with approximately 15 visuals
-- Covers application review, funding, liability, tax-status, and exception indicators
-- Original PBIX contains applicant-level data
-- Public release requires a rebuilt synthetic model
-
-### WAV 2026 grant dashboard
-
-- One-page dashboard with approximately seven visuals
-- Tracks application funnel, vehicle categories, budget, and operational impact
-- Original model includes case references and applicant identifiers
-- Public release requires synthetic cases and values
-
-## Publication plan
-
-For each public case study:
-
-1. Rebuild the model with fictional or fully anonymised data.
-2. Remove employer and client branding unless permission is confirmed.
-3. Verify that screenshots contain no names, IDs, contact details, or confidential metrics.
-4. Document the KPI definitions, data model, Power Query steps, and key DAX measures.
-5. Publish the safe PBIX, screenshots, data dictionary, and synthetic dataset.
-
-## Data safety
-
-Do not commit original PBIX files, monthly exports, operational-impact documents, or raw screenshots. A private GitHub repository is not a substitute for employer or client approval.
-
-## Status
-
-Portfolio preparation is in progress. The local source projects have been inventoried; sanitised case studies have not yet been generated.
+The values in the example dataset are fabricated for portfolio demonstration and must not be interpreted as operational results.

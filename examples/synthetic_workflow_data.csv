@@ -1,0 +1,13 @@
+Month,Region,ServiceLine,NewCases,CompletedCases,OpenBacklog,OnTimeRate,MedianReviewDays
+2026-01-01,North,Standard,118,111,42,0.91,5.4
+2026-01-01,North,Priority,46,44,15,0.94,3.2
+2026-01-01,South,Standard,104,97,39,0.89,6.1
+2026-01-01,South,Priority,39,38,12,0.95,3.0
+2026-02-01,North,Standard,123,119,40,0.93,5.0
+2026-02-01,North,Priority,51,49,14,0.96,2.8
+2026-02-01,South,Standard,109,105,36,0.92,5.6
+2026-02-01,South,Priority,42,41,11,0.95,2.9
+2026-03-01,North,Standard,127,124,36,0.95,4.6
+2026-03-01,North,Priority,54,52,13,0.96,2.7
+2026-03-01,South,Standard,112,110,32,0.94,5.0
+2026-03-01,South,Priority,45,44,10,0.97,2.6

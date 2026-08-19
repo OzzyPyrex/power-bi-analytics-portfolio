@@ -1,17 +1,21 @@
-# Power BI files embed their data model.
+# Power BI project packages can embed data models, query metadata, and report assets.
 *.pbix
 *.pbit
 
-# Raw and exported data
+# Never commit source exports or working extracts.
+data/
+raw/
+exports/
 *.xlsx
 *.xls
 *.csv
 *.pdf
-data/
-raw/
-exports/
 
-# Local and temporary files
+# The intentionally synthetic example below is the sole exception.
+!examples/
+!examples/synthetic_workflow_data.csv
+
+# Local and temporary files.
 *.tmp
 ~$*
 .DS_Store
